@@ -4,7 +4,7 @@ import moment from 'moment'
 export default class TeamInfo extends Component {
     
     render() {
-        let color = (this.props.role === "leader") ? "danger" :(this.props.role ==="quality assurance")?"info": "success"
+        let color = (this.props.role === "leader") ? "danger" : "success"
         return (
             <tr className="TeamInfo" >
                 <td>
